@@ -1,0 +1,6 @@
+npm-debug.log
+node_modules/
+config/
+.DS_Store
+package-lock.json
+npm-shrinkwrap.json
