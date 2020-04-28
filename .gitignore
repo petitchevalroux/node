@@ -4,3 +4,6 @@ config/
 .DS_Store
 package-lock.json
 npm-shrinkwrap.json
+.report/
+.build/
+.nyc_output

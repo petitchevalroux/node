@@ -1,0 +1,35 @@
+{
+  "name": "@petitchevalroux/node",
+  "version": "1.0.0",
+  "description": "Node projects single repository",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "clean": "lerna run clean",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "lint-fix": "lerna run lint-fix",
+    "quality-check": "lerna run quality-check",
+    "coverage-check": "lerna run coverage-check",
+    "coverage-report-html": "lerna run coverage-report-html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitchevalroux/node.git"
+  },
+  "author": "Patrick Poulain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petitchevalroux/node/issues"
+  },
+  "homepage": "https://github.com/petitchevalroux/node#readme",
+  "devDependencies": {
+    "dependency-check": "^4.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "jscpd": "^3.2.1",
+    "lerna": "^3.20.2",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  }
+}
