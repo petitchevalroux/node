@@ -1,0 +1,28 @@
+{
+  "name": "@petitchevalroux/website-generator",
+  "version": "1.0.0",
+  "description": "Website frontend generator",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "make clean",
+    "test": "make test",
+    "lint": "make lint",
+    "lint-fix": "make lint-fix",
+    "quality-check": "make quality-check",
+    "coverage-check": "make coverage-check",
+    "coverage-report-html": "make coverage-report-html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitchevalroux/node.git"
+  },
+  "author": "Patrick Poulain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petitchevalroux/node/issues"
+  },
+  "homepage": "https://github.com/petitchevalroux/node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,13 @@
+@startuml
+title Request content using URI with http
+Client -> Express : Request
+Express -> WgMiddleWare:run(request,response,next) 
+WgMiddleWare -> RouterCollection: getByHost(request.hostname)
+RouterCollection -> WgMiddleWare: router
+WgMiddleWare -> router: getRequestHandler(request)
+router -> WgMiddleWare: requestHandler
+WgMiddleWare -> requestHandler: handle(request, response)
+requestHandler -> Express: response.send
+Express -> Client: response
+note left: HTML
+@enduml
