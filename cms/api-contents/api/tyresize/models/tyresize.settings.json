@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tyresizes",
+  "info": {
+    "name": "tyresize"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "tyresizestandard": {
+      "model": "tyresizestandard"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "innerDiameter": {
+      "type": "integer"
+    },
+    "outerDiameter": {
+      "type": "integer"
+    }
+  }
+}

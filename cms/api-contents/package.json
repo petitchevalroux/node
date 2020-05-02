@@ -1,0 +1,37 @@
+{
+  "name": "@petitchevalroux/cms-api-contents",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cms contents api",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.20.1",
+    "strapi-admin": "3.0.0-beta.20.1",
+    "strapi-utils": "3.0.0-beta.20.1",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.1",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.1",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.1",
+    "strapi-plugin-email": "3.0.0-beta.20.1",
+    "strapi-plugin-upload": "3.0.0-beta.20.1",
+    "strapi-connector-bookshelf": "3.0.0-beta.20.1",
+    "knex": "<0.20.0",
+    "sqlite3": "latest"
+  },
+  "author": {
+    "name": "Patrick Poulain"
+  },
+  "strapi": {
+    "uuid": "ec4215e7-e685-4996-9246-d6b3990ad48d"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

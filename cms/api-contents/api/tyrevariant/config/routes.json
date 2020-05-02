@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tyrevariants",
+      "handler": "tyrevariant.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tyrevariants/count",
+      "handler": "tyrevariant.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tyrevariants/:id",
+      "handler": "tyrevariant.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tyrevariants",
+      "handler": "tyrevariant.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tyrevariants/:id",
+      "handler": "tyrevariant.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tyrevariants/:id",
+      "handler": "tyrevariant.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

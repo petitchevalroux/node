@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tyresizestandards",
+      "handler": "tyresizestandard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tyresizestandards/count",
+      "handler": "tyresizestandard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tyresizestandards/:id",
+      "handler": "tyresizestandard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tyresizestandards",
+      "handler": "tyresizestandard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tyresizestandards/:id",
+      "handler": "tyresizestandard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tyresizestandards/:id",
+      "handler": "tyresizestandard.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

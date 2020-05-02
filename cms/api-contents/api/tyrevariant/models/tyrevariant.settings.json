@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tyrevariants",
+  "info": {
+    "name": "tyrevariant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tyre": {
+      "model": "tyre",
+      "via": "tyrevariants"
+    },
+    "tyresizes": {
+      "collection": "tyresize"
+    }
+  }
+}
