@@ -1,0 +1,125 @@
+@startuml
+namespace Catalog {
+    class Product {
+        String id
+        String name
+        String typeId
+        String brandId
+    }
+    class Brand {
+        String id
+        String name
+    }
+    class Type {
+        String id
+        String name
+    }
+    Product --> Type
+    Product --> Brand
+}
+namespace Tyre {
+    class Tyre {
+        String tyreId
+        String title
+        String productId
+    }
+    class TyreVariant {
+        String tyreVariantId
+        String title
+        String name
+        String productId
+        String tyreId
+    }
+    class TyreSize {
+        String tyreSizeId
+        String name
+        Integer height
+        Integer width
+        Integer outerDiameter
+        Integer innerDiameter
+        String tyreStandardId
+    }
+    class TyreSizeStandard {
+        String tyreStandardId
+        String name
+    }
+    TyreVariant --> Tyre
+    TyreVariant *--* TyreSize
+    TyreSize --> TyreSizeStandard
+
+}
+namespace Bike {
+    class Bike {
+        String productId
+        String pedalId
+        String cranksetChainringId
+        String chainId
+        String frontDerailleurId
+        String rearDerailleurId
+    }
+    class Pedal {
+        String productId
+        Integer weight
+    }
+    class Crankset {
+        String productId
+        Integer bcd
+        Integer chainLine
+        Integer chainringCount
+        Integer armLength
+    }
+    class CranksetChainring {
+        String productId
+        String cranksetId
+        String chainringId
+    }
+    class Chainring {
+        String productId
+        Integer bcd
+        Integer weight
+    }
+    class chain {
+        String productId
+        Integer speed
+    }
+    class Cassette {
+        String productId
+        Integer speed
+        Integer minSprocket
+        Integer maxSprocket
+    }
+    class Wheel {
+        String productId
+        String hubId
+        String spokeId
+        String rimId
+        String tyreVariantId
+    }
+    class Hub {
+
+    }
+    class Spoke {
+        
+    }
+    class Rim {
+
+    }
+    class Spoke {
+        String productId
+    }
+    class frontDerailleur {
+        String productId
+        Integer weight
+        Integer speedCount
+    }
+    class rearDerailleur {
+        String productId
+        Integer weight
+        Integer minSprocket
+        Integer maxSprocket
+        String cageLength
+        Integer speedCount
+    }
+}
+
+@enduml
