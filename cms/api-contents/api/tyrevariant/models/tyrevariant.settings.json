@@ -20,7 +20,21 @@
       "via": "tyrevariants"
     },
     "tyresizes": {
-      "collection": "tyresize"
+      "collection": "tyresize",
+      "via": "tyrevariants",
+      "dominant": true
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "minPressureKpa": {
+      "type": "integer"
+    },
+    "maxPressureKpa": {
+      "type": "integer"
+    },
+    "maxLoadKg": {
+      "type": "integer"
     }
   }
 }

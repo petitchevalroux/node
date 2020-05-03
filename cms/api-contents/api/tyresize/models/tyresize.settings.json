@@ -26,6 +26,10 @@
     },
     "outerDiameter": {
       "type": "integer"
+    },
+    "tyrevariants": {
+      "via": "tyresizes",
+      "collection": "tyrevariant"
     }
   }
 }
