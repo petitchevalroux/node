@@ -1,7 +1,7 @@
 import graphql from "graphql-tag";
 const TYRE_QUERY = graphql`
-{
-  tyre(id: "1") {
+query ($id: ID!){
+  tyre(id: $id) {
     title
     tyrevariants{
       name,

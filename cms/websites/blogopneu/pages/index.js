@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ContentTyre from '../src/backend/components/content-tyre'
+import ListTyres from '../src/backend/components/list-tyres'
 export default function Home() {
   return (
     <div className="container">
@@ -7,7 +7,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ContentTyre id={1}></ContentTyre>
+      <ListTyres start={0} limit={10}/>
     </div>
   )
 }
