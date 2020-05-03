@@ -42,6 +42,10 @@
         "sourceType": "module",
         "ecmaVersion": 6
     },
-    "extends": ["eslint:recommended", "plugin:promise/recommended"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:promise/recommended",
+        "plugin:react/recommended"
+    ],
     "plugins": ["promise"]
 }
