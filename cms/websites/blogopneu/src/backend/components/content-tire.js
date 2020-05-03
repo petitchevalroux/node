@@ -1,6 +1,6 @@
 import Content from "../../isomorphic/components/content";
 import query from "../graphql/tyre";
-import { useQuery } from "@apollo/react-hooks";
+import { useQuery } from "@apollo/client";
 import React from "react";
 import PropTypes from "prop-types";
 

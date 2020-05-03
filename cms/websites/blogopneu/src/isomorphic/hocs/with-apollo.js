@@ -1,7 +1,8 @@
 import withApollo from "next-with-apollo";
 import apolloClient from "../dependencies/apollo-client";
+import {ApolloProvider} from "@apollo/client";
 import {getDataFromTree} from "@apollo/react-ssr";
-import { ApolloProvider } from "@apollo/react-hooks";
+
 import React from "react";
 import PropTypes from "prop-types";
 
