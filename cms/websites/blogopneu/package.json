@@ -1,11 +1,18 @@
 {
-  "name": "learn-starter",
+  "name": "blogopneu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "clean": "make clean",
+    "test": "make test",
+    "lint": "make lint",
+    "lint-fix": "make lint-fix",
+    "quality-check": "make quality-check",
+    "coverage-check": "make coverage-check",
+    "coverage-report-html": "make coverage-report-html"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
@@ -17,7 +24,9 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "9.3.5",
     "next-with-apollo": "^5.0.1",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
+    "react-apollo": "^3.1.5",
     "react-dom": "16.13.1"
   }
 }

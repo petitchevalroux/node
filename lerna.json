@@ -1,6 +1,7 @@
 {
   "packages": [
-    "cms/website-generator"
+    "cms/website-generator",
+    "cms/websites/blogopneu"
   ],
   "version": "0.0.0"
 }
