@@ -2,7 +2,7 @@
   "name": "@petitchevalroux/cms-api-contents",
   "private": true,
   "version": "0.1.0",
-  "description": "Cms contents api",
+  "description": "CMS contents api",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
