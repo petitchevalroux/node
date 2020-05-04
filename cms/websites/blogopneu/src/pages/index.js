@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ListTyres from '../src/backend/components/list-tyres'
+import ListTyres from '../backend/components/list-tyres'
 export default function Home() {
   return (
     <div className="container">

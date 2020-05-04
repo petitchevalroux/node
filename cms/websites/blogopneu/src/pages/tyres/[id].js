@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import ContentTyre from '../../src/backend/components/content-tyre'
+import ContentTyre from '../../backend/components/content-tyre';
 const TyrePage = () => {
   const router = useRouter()
   const { id } = router.query
